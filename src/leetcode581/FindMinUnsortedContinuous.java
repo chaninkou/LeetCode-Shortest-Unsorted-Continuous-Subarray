@@ -1,6 +1,7 @@
 package leetcode581;
 
 public class FindMinUnsortedContinuous {
+	// O(n + N)
     public int findUnsortedSubarray(int[] nums) {
         int start = -1;
         int end = -2;
